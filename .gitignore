@@ -1,0 +1,51 @@
+# Visual Studio / .NET specific
+.vs/
+*.user
+*.suo
+*.sln.docstates
+*.cache
+*.[Rr]elease/
+*.[Dd]ebug/
+[Bb]in/
+[Oo]bj/
+[Ll]ogs/
+*.log
+error.log
+
+# .NET Core / SDK specific
+project.fragment.lock.json
+*.nuget.props
+*.nuget.targets
+*.nuget.dgspec.json
+*.nuget.cache
+
+# C# specific
+*.pdb
+*.exe
+*.dll
+
+# CMake / C++ specific
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake.in
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# OS specific
+Thumbs.db
+.DS_Store
+*.swp
+*~
+
+# Rider specific
+.idea/
+
+# Ignore the native DLL in the root, it should be placed there by the build process or manually before build
+/SpanningTreeCore.dll
+
+# Keep the LICENSE file (if any)
+!LICENSE* 
